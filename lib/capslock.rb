@@ -7,6 +7,16 @@ module Capslock
     # works on ubuntu
     `setxkbmap -layout us -option ctrl:nocaps`
   end
+
+  def self.osx
+    raise 'osx not yet unsupported'
+    #http://superuser.com/questions/545208/remap-keys-via-command-line-in-mac-os-x
+  end
+
+  def self.windows
+    raise 'windows not yet unsupported'
+    #http://www.howtogeek.com/howto/windows-vista/disable-caps-lock-key-in-windows-vista/
+  end
 end
 
 #require "capslock/version"
