@@ -1,0 +1,7 @@
+require_relative '../lib/capslock.rb'
+
+puts 'Setting caps lock to ctrl'
+if OS.linux?
+  puts 'on linux'
+  Capslock::linux
+end
